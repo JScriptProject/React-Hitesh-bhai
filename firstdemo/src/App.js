@@ -1,9 +1,14 @@
 
-import './App.css';
+import Chai from './Chai.js'
+import Blog from './Blog.js';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+    <Chai />
+    <Blog />
+    </>
+    
   );
 }
 
